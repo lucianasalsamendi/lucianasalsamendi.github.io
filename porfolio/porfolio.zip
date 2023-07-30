@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>Luciana</title>
+</head>
+
+<body>
+    <header>
+        <img src="luciana.jpg" alt="luciana">
+
+        <h1 class="hola">¡Hola! Bienvenido/a, <span id="nombre">mi nombre es</span></h1>
+        <!--<h1 class="nombre">Mi nombre es</h1>-->
+        <h1 class="luciana">LUCIANA SALSAMENDI</h1>
+        <h3 class="titulo">y te voy a contar un poquito sobre mi...</h3>
+
+        <p id="intro">Tengo 26 años, vivo en Sayago, Montevideo. Me gusta aprender constantemente, me encantan los desafios.
+            Me considero una persona responsable y perseverante.
+            Me encanta lo que estudio y es lo que me motiva día a día para seguir superandome. Soy apasionada de lo que me
+            hace feliz.
+        </p>
+    </header>
+
+    <hr>
+
+    <ul>
+        <a href="#laboral">Experiencia laboral</a>
+
+        <a href="#educación">Educación</a>
+        <a href="#perfiles">Perfiles sociales</a>
+        <a href="#contactar">Contactos</a>
+    </ul>
+
+    <hr>
+
+   
+    <h2 id="laboral">Experiencia laboral</h2>
+    <br>
+    <div class="trabajos">
+        <h4>Abitab. Ag 88/0 - Prado. Sep 2021 - Sep 2022 </h4>
+        <h5>Cajera</h5>
+        <p>Ateción al publico, cajera pagos y cobros.</p>
+        <p>También parte de juego, quiniela, loteria y colectivos.</p>
+        <br>
+        
+        <h4>Kiosco Punto Dulce - Colón. Oct 2016 - Abr 2018 </h4>
+        <h5>Atención al publico</h5>
+        <p>Venta al publico, compra de mercaderia y reposicion.</p>
+        <p>Tareas administrativas.</p>
+        <br>
+        
+        <h4>Lolita - Pocitos. 2015 - 2016 </h4>
+        <h5>Atención al publico</h5>
+        <p>Venta al publico y reposicion.</p>
+        <br>
+        
+        <h4>Brou Ag. 185 - Paso Molino. 2014 - 2015 </h4>
+        <h5>Becaria "Yo estudio y trabajo"</h5>
+        <p>Atención al público, legajos y archivos,.</p>
+        <br>
+    </div>
+
+    <hr>
+
+    <h2 id="educación">Educación</h2>
+
+    <div class="hemo">
+        <img src="hemoterapia.jpg" alt="hemoterapia">
+        <h4>Tecnica en Hemoterapia </h4>
+        <h5>UdelaR, EUTM</h5>
+        <p>Último año. Actualmente. </p>
+        <br>
+    </div>
+
+    <div class="lab">  
+        <img src="laboratorio.jpg" alt="laboratorio">
+        <h4>Licenciada en Laboratorio Clínico </h4>
+        <h5>UdelaR, EUTM</h5>
+        <p>2do año. Actualmente. </p>
+        <br>
+    </div>
+
+    <div class="jap"> 
+        <img src="jovenes.jpg" alt="jovenes">
+        <h4>Desarrollo web </h4>
+        <h5>Jovenes a Programar.</h5>
+        <p>Fase 2. Actualmente. </p>
+        <br>
+    </div>
+
+    <hr>
+
+    <h2 id="perfiles">Perfiles sociales</h2>
+        <p id="perf">También podes encontrarme en:</p>
+        <ul>
+        <a href="">Luciana Salsamendi</a>
+        <a href="https://www.linkedin.com/in/luciana-salsamendi-2a42b2279/" target="_blank"> Linkedin</a>
+        <a href="https://www.instagram.com/luusalsamendi/" target="_blank">Instagram</a>
+        <a href="https://twitter.com/nacional" target="_blank">Twitter</a>
+
+    </ul>
+    
+    <hr>
+
+    <h2 id="contactar">Contactar</h2>
+
+    <form>
+        <label for="name">Para:</label>
+        <input type="text" id="name" name="name"><br>
+        <label for="thematic">Temática:</label>
+        <select name="thematic" id="thematics">
+            <option value="-- elige un tema --" selected>-- Elige un tema --</option>
+            <option value="consulta">Consulta</option>
+            <option value="propuesta">Propuesta</option>
+            <option value="otro">Otro</option>
+        </select> <br>
+        <label for="subject">Asunto:</label>
+        <input type="text" id="subject" name="subject"><br>
+        <label for="body">Mensaje:</label>
+        <textarea type="text" id="body" name="body" style="width:150px; height:10x;"></textarea>
+        <br>
+        <input type="submit" value="Enviar">
+    </form><br>
+
+</body>
+
+</html>
